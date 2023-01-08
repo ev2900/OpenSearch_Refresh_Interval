@@ -1,1 +1,1 @@
-# OpenSearch_Refresh_Interval
+# OpenSearch Refresh Interval
