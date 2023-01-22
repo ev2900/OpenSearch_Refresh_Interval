@@ -20,6 +20,8 @@ PUT /sample-data/_settings
 }
 ```
 
+<img width="800" alt="cat_indicies_1" src="https://github.com/ev2900/OpenSearch_Refresh_Interval/blob/main/README/ChangeInterval.PNG">
+
 Will adjust the refresh interval of the index **sample-data** from the default of 1 second to 30 seconds. Setting the refresh interal to -1 would disable refreshing. If the refresh interval is -1 refreshes will only happen when they are manually refreshed
 
 ## Refresh an Index
@@ -31,3 +33,5 @@ POST sample-data/_refresh
 ```
  
  Will manually force a refresh on the index **sample-data**
+ 
+ <img width="800" alt="cat_indicies_1" src="https://github.com/ev2900/OpenSearch_Refresh_Interval/blob/main/README/ForceRefresh.PNG">
