@@ -9,4 +9,25 @@ The information below describes how to use the OpenSearch APIs to adjust the ref
 
 ## Change the OpenSeach Refresh Interval for an Index
 
+Running 
+
+```
+PUT /sample-data/_settings
+{
+    "index" : {
+        "refresh_interval" : "30s"
+    }
+}
+```
+
+Will adjust the refresh interval of the index **sample-data** from the default of 1 second to 30 seconds. Setting the refresh interal to -1 would disable refreshing. If the refresh interval is -1 refreshes will only happen when they are manually refreshed
+
 ## Refresh an Index
+
+Running
+
+```
+POST sample-data/_refresh
+```
+ 
+ Will manually force a refresh on the index **sample-data**
