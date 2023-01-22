@@ -7,7 +7,7 @@ In summary - if you do not need updates / new documents to be search-able within
 
 The information below describes how to use the OpenSearch APIs to adjust the refresh interval for an index
 
-## Change the OpenSeach Refresh Interval for an Index
+## Change the OpenSearch Refresh Interval for an Index
 
 Running 
 
@@ -20,7 +20,7 @@ PUT /sample-data/_settings
 }
 ```
 
-Will adjust the refresh interval of the index **sample-data** from the default of 1 second to 30 seconds. Setting the refresh interal to -1 would disable refreshing. If the refresh interval is -1 refreshes will only happen when they are manually refreshed
+Will adjust the refresh interval of the index **sample-data** from the default of 1 second to 30 seconds. Setting the refresh interval to -1 would disable refreshing. If the refresh interval is -1 refreshes will only happen when they are manually refreshed
 
 <img width="800" alt="cat_indicies_1" src="https://github.com/ev2900/OpenSearch_Refresh_Interval/blob/main/README/ChangeInterval.PNG">
 
