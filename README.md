@@ -1,4 +1,10 @@
 # OpenSearch Refresh Interval
+
+If you prefer to watch a video instead of reading the instructions below, check out the link below
+
+YouTube video - [https://youtu.be/xadv93LlbY4](https://www.youtube.com/watch?v=8uyemEfgcY8)
+
+## Overview
 OpenSearch has a default refresh interval of 1 second. The duration of the refresh interval determines how long it takes a document sent to OpenSearch to be search-able. 
 
 Refreshing an index can be a resource intensive operation, decreasing the frequency of refreshes can reduce the load on an OpenSearch domain at the cost of decreasing how quickly documents become search-able. 
