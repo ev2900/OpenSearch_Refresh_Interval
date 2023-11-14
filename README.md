@@ -4,6 +4,8 @@ If you prefer to watch a video instead of reading the instructions below, check 
 
 YouTube video - [https://youtu.be/8uyemEfgcY8](https://www.youtube.com/watch?v=8uyemEfgcY8)
 
+Blog post - [https://opensearch.org/blog/optimize-refresh-interval/](https://opensearch.org/blog/optimize-refresh-interval/)
+
 ## Overview
 OpenSearch has a default refresh interval of 1 second. The duration of the refresh interval determines how long it takes a document sent to OpenSearch to be search-able. 
 
