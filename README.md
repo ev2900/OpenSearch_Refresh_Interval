@@ -1,6 +1,6 @@
 # OpenSearch Refresh Interval
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-939-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-655-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-940-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-655-green">
 
 If you prefer to watch a video instead of reading the instructions below, check out the link below
 
